@@ -1,0 +1,535 @@
+@import url('https://use.typekit.net/ten6mvs.css');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: bio-sans, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+}
+
+.faixa {
+    background: rgb(239,53,110);
+    background: -moz-linear-gradient(270deg, rgba(239,53,110,1) 0%, rgba(231,57,237,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(239,53,110,1) 0%, rgba(231,57,237,1) 100%);
+    background: linear-gradient(270deg, rgba(239,53,110,1) 0%, rgba(231,57,237,1) 100%);
+}
+
+/* #15AACC 
+#738388
+white*/
+
+
+
+/* -----sobre------ */
+.sobre {
+    padding: 30px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .sobre {
+        padding: 96px 0;
+    }
+}
+
+#asset1 {
+    position: absolute;
+    right: 100%;
+    top: 150px;
+}
+
+#asset2 {
+    position: absolute;
+    left: 100%;
+    bottom: 33px;
+}
+
+.sobre .card {
+    padding: 53px 20px 0;
+    position: relative;
+    max-width: 1110px;
+    box-shadow: 0px 5px 15px #21292B26;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .sobre .card{
+        padding: 53px 65px 0;
+    }
+}
+
+.sobre .card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #15AACC;
+}
+
+.sobre .card p{
+    font-size: 16px;
+    color: #738388;
+}
+
+.sobre .botao {
+    padding: 15px 0px;
+    margin-bottom: 53px;
+    max-width: 350px;
+    margin-top: 32px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(216,19,108,1) 30%, rgba(241,58,106,1) 73%);
+    transition: all .8s ease-in-out;
+}
+
+.iframe-box {
+    padding-top: 56.2%;
+    position: relative;
+    margin-bottom: 50px;
+    top: 0;
+    transform: translateY(0px);
+}
+
+@media screen and (min-width: 992px) {
+    .iframe-box {
+        top: 100%;
+        transform: translateY(-422.8px);
+        margin-bottom: 50px;
+    }
+}
+
+.iframe-box iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+}
+
+.sobre .botao span {
+    color: white;
+    font-size: 20px;
+}
+
+.sobre .botao img {
+    transition: all .3s ease-in-out;
+}
+
+.sobre .botao:hover {
+    background: linear-gradient(90deg, rgba(216,19,108,1) 30%, rgba(216,19,108,1) 73%);
+}
+
+.sobre .botao:hover img{
+    transform: translateX(30px);
+}
+
+
+
+/* -------vantagens-------- */
+.vantagens {
+    background-image: url(https://micromed.ind.br/landing-pages/2022/02/cortex/img/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .vantagens {
+        padding: 92px 0;
+    }
+}
+
+#asset3 {
+    position: absolute;
+    right: 100%;
+    transform: translateX(-100px);
+    top: 90px;
+    opacity: 0.5;
+}
+
+#asset4 {
+    position: absolute;
+    left: 100%;
+    transform: translateX(117px);
+    bottom: 40px;
+    opacity: 0.5;
+}
+
+.vantagens h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.vantagens p {
+    font-size: 16px;
+    max-width: 730px;
+    font-weight: 300;
+}
+
+.vantagens .card {
+    padding: 15px 30px 0;
+    min-height: 402px;
+    border-radius: 30px;
+    transition: all .2s ease-out;
+}
+
+.vantagens .card:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.vantagens .card h1 {
+    font-size: 20px;
+    color: #15AACC;
+}
+
+.vantagens .card p {
+    font-size: 16px;
+    color: #15AACC;
+}
+
+.brightness {
+    transition: all .2s ease-out;
+}
+
+.vantagens .card:hover img, .vantagens .card:hover h1, .vantagens .card:hover p {
+    filter: brightness(100);
+}
+
+
+
+/* -------produtos-------- */
+.produtos {
+    background-image: url(https://micromed.ind.br/landing-pages/2022/02/cortex/img/banner-bike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    background-position-x: -850px;
+}
+
+@media screen and (min-width: 1120px) {
+    .produtos {
+        background-position-x: -700px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .produtos {
+        background-position-x: -550px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .produtos {
+        background-position-x: -450px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .produtos {
+        background-position-x: -400px;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    .produtos {
+        background-position-x: -300px;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .produtos {
+        background-position-x: 0px;
+    }
+}
+
+#asset5 {
+    position: absolute;
+    right: 100%;
+    transform: translateX(90px);
+}
+
+#asset6 {
+    position: absolute;
+    left: 100%;
+    bottom: 855px;
+    transform: translateX(150px);
+}
+
+#asset7 {
+    position: absolute;
+    right: 100%;
+    bottom: 100px;
+}
+
+.produtos h2 {
+    color: #15AACC;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.produtos p {
+    font-size: 16px;
+    color: #738388;
+}
+
+.produtos .card {
+    padding: 40px 0px 70px;
+    border-radius: 30px;
+}
+
+
+
+/* -------form-------- */
+.form {
+    background-image: url(https://micromed.ind.br/landing-pages/2022/02/cortex/img/bg-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 36px 0 86px;
+    height: auto;
+}
+
+.form {
+    background-image: url(https://micromed.ind.br/landing-pages/2022/02/cortex/img/bg-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 36px 0 86px;
+    height: auto;
+}
+
+.ou {
+    font-size: 12px;
+    color: #738388;
+    text-align: center;
+    position: relative;
+}
+
+.ou::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    width: 40%;
+    height: 2px;
+    background-color: #738388;
+}
+
+.ou::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 40%;
+    height: 2px;
+    background-color: #738388;
+}
+
+#asset8 {
+    position: absolute;
+    right: 100%;
+    top: 138px;
+    transform: translateX(-90px);
+    opacity: .5;
+}
+
+#asset9 {
+    position: absolute;
+    left: 100%;
+    bottom: 83px;
+    transform: translateX(90px);
+    opacity: .5;
+}
+
+.form .card {
+    border-radius: 35px;
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 994px) {
+    .form .card {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .form .card {
+        padding-bottom: 45px;
+    }
+}
+
+.representante {
+    margin-top: -300px;
+}
+
+@media screen and (min-width: 994px) {
+    .representante {
+        margin-top: 0;
+    }
+}
+
+.img-form {
+    margin: 0px 0 0 0;
+    display: none;
+}
+
+@media screen and (min-width: 994px) {
+    .img-form {
+        margin: -1px 0 0 0;
+        display: block;
+    }
+}
+
+.form h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+@media screen and (min-width:577px) {
+    .form h2 {
+        font-size: 26px;
+    }
+}
+
+.form p {
+    font-size: 16px;
+    color: #738388;
+}
+
+.btn-representante {
+    padding: 15px 0px;
+    max-width: 350px;
+    margin-top: 32px auto 0;
+    border-radius: 15px;
+    background: rgb(18,134,200);
+    background: -moz-linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(21,170,204,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(21,170,204,1) 100%);
+    background: linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(21,170,204,1) 100%);
+    transition: all .5s ease-in-out;
+}
+
+.btn-representante span {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-representante img {
+    transition: all .3s ease-in-out;
+}
+
+.btn-representante:hover {
+    background: rgb(18,134,200);
+    background: -moz-linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(18,134,200,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(18,134,200,1) 100%);
+    background: linear-gradient(90deg, rgba(18,134,200,1) 0%, rgba(18,134,200,1) 100%);
+
+    max-width: 500px;
+}
+
+.btn-representante:hover img{
+    transform: translateX(50px);
+}
+
+.form-right {
+    padding: 62px 35px 0;
+}
+
+@media screen and (min-width: 992px) {
+    .form-right {
+        padding: 62px 70px 0 0;
+    }
+}
+
+.form-right h2 {
+    max-width: 450px;
+}
+
+.formulario {
+    width: auto;
+    height: 810px;
+}
+
+
+.cta-final {
+    margin-top: 54px;
+    padding: 29px 45px 40px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px!important;
+}
+
+@media screen and (min-width: 400px) {
+    .cta-final {
+        border-radius: 120px!important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cta-final {
+        padding: 29px 95px 80px!important;
+    }
+}
+
+.cta-final  p {
+     color: #1286C8;
+     font-size: 16px;
+     text-align: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+}
+
+
+footer, .ouzzi {
+    background-color: #EEF3F5;
+}
+
+footer p, footer a {
+    color: #738388;
+}
+
+
+/* PÃƒÂGINA DE OBRIGADO */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.obrigado {
+    background: url(https://micromed.ind.br/landing-pages/2022/02/cortex/img/bg-4.png) no-repeat center;
+    background-size: cover;
+}
+
+.obrigado .card {
+    border: 0;
+    border-radius: 38px;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px;
+}
+
+.obrigado .card p {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .obrigado .card {
+        border-radius: 67px;
+        padding: 65px;
+    }
+
+    .obrigado .card .icon {
+        width: 50px;
+    }
+}
